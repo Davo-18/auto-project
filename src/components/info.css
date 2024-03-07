@@ -1,0 +1,70 @@
+.App__car{
+    background-image: url("div.layer0.png");;
+    background-repeat: no-repeat;
+    background-size: 1920 845;
+    background-color: rgba(12, 11, 11, 0.753);
+    background-blend-mode: multiply;
+
+    
+}
+
+
+
+
+
+p{
+    font-weight: bold;
+    margin-right: 385px;
+}
+
+.white{
+    font-size: 26px;
+    font-weight: Regular;
+    color: white;
+    margin-left: -350px;
+}
+
+button{
+    border: solid green 30px;
+    border-radius: 50px 50px 50px 50px;
+    background-color: green;
+    color: white;
+    font-size: 17px;
+    font-weight: medium;
+    margin-left: -1060px;
+}
+
+
+@media  (max-width: 1200px){
+.but__cars{
+    position: relative;
+    left: -300px;
+    
+}
+button{
+    position: relative;
+    left: -300px;
+    
+}
+}
+  
+
+@media  (max-width: 1000px){
+  
+}
+
+@media  (max-width: 768px){
+    .but__cars{
+        font-size: 20px;
+        
+    }
+    button{
+       
+        
+    }
+}
+
+@media  (max-width: 480px){
+  
+}
+

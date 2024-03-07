@@ -1,0 +1,32 @@
+.App_feedback2{
+    width: 1900px;
+    height: 581px;
+ background: rgb(167,231,244);
+    background: linear-gradient(90deg, rgb(236, 252, 255) 0%, rgb(216, 231, 255) 100%);;
+    
+}
+
+.button_link{
+        margin-left: 1500px;
+}
+
+.second_btn{
+    
+}
+
+@media  (max-width: 1200px){
+
+}
+  
+
+@media  (max-width: 1000px){
+  
+}
+
+@media  (max-width: 768px){
+  
+}
+
+@media  (max-width: 480px){
+  
+}

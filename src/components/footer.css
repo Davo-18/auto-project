@@ -1,0 +1,27 @@
+.App__footer{
+    width: 1900px;
+    height: 339px;
+    background-color: #1A646E;
+    margin-top: -200px;
+}
+
+
+@media  (max-width: 1200px){
+.App__footer{
+    position: relative;
+    left: -200px
+}
+}
+  
+
+@media  (max-width: 1000px){
+  
+}
+
+@media  (max-width: 768px){
+  
+}
+
+@media  (max-width: 480px){
+  
+}

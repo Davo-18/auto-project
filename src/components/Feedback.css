@@ -1,0 +1,35 @@
+.App_feedback{
+    width: 1920px;
+    height: 521px;
+    background: rgb(167,231,244);
+
+    background: linear-gradient(90deg, rgb(236, 252, 255) 0%, rgb(216, 231, 255) 100%);;
+}
+
+.App_feedback p{
+    font-weight: normal;
+    text-align: left;
+}
+
+.feedback__mark{
+    margin-left: 465px;
+    font-size: 16px;
+    margin-top: -20px;
+}
+
+@media  (max-width: 1200px){
+
+}
+  
+
+@media  (max-width: 1000px){
+  
+}
+
+@media  (max-width: 768px){
+  
+}
+
+@media  (max-width: 480px){
+  
+}

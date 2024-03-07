@@ -1,0 +1,86 @@
+.App__about{
+    width: 1920px;
+    min-height: 950px;
+}
+
+
+
+.about_head{
+    margin-left: 650px;
+    font-size: 40px;
+}
+
+.inputs__form{
+    display: flex;
+    flex-direction: column
+}
+
+label{
+    margin-left: -380px;
+}
+
+input{
+    font-size: 25px;
+}
+
+form{
+    padding: 30px;
+    background-color: white;
+    border-radius: 50px 50px 50px 50px;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
+}
+
+h4{
+    font-size: 18;
+    font-weight: bold;
+}
+
+.plus__company{
+    display: flex;
+    flex-direction: column;
+}
+
+.plus__company p{
+    font-weight: normal;
+    margin-left: 550px;
+    margin-top: -15px;
+    font-size: 16px;
+
+}
+
+
+.line__icons{
+    position: 'relative';
+     left: -100;
+}
+
+
+@media  (max-width: 1200px){
+    .about_head{
+        position: relative;
+        left: -450px
+    }
+
+    .plus__company{
+        position: relative;
+        left: -200px
+    }
+    .line__icons{
+        position: relative;
+        left: -200px
+    }
+    
+}
+  
+
+@media  (max-width: 1000px){
+  
+}
+
+@media  (max-width: 768px){
+  
+}
+
+@media  (max-width: 480px){
+  
+}

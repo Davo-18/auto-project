@@ -1,0 +1,64 @@
+.App__process{
+    width: 1920px;
+    height: 766px;
+}
+
+
+.form__process h4{
+    margin-left: -1150px;
+    font-size: 16px;
+   
+}
+
+.form__process h3{
+    margin-left: -1000px;
+    font-size: 18px;
+   
+}
+
+.form__process p{
+    font-weight: normal;
+    margin-left: -560px;
+    margin-top: -20px;
+    font-size: 16px;
+}
+
+/* .form__process{
+    border: solid whitesmoke 15px;
+    border-width: 10px; 
+} */
+
+.pay__info{
+    font-size: 18px;
+    margin-top: -370px;
+    margin-left: 500px;
+    text-align: left;
+}
+
+.pay__info p{
+font-weight: normal;
+}
+
+
+.form__process{
+    
+    
+}
+
+
+@media  (max-width: 1200px){
+
+}
+  
+
+@media  (max-width: 1000px){
+  
+}
+
+@media  (max-width: 768px){
+  
+}
+
+@media  (max-width: 480px){
+  
+}

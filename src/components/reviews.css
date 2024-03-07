@@ -1,0 +1,50 @@
+.App__reviews{
+    width: 1920px;
+    height: 473px;
+}
+
+
+
+
+.header__rev{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-left: 200px;
+}
+
+
+.text__rev{
+    font-weight: normal;
+    display: flex;
+    margin-top: 10px;
+    margin-left: 0;
+    position: relative;
+    left: 410px;
+    text-align: left;
+}
+
+.reviews__all{
+    margin-left: -100px;
+    
+}
+
+
+@media  (max-width: 1200px){
+
+    }
+      
+    
+    @media  (max-width: 1000px){
+      
+    }
+    
+    @media  (max-width: 768px){
+      
+    }
+    
+    @media  (max-width: 480px){
+      
+    }
+    
+    
