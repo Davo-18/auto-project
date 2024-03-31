@@ -17,16 +17,15 @@ const Get = () => {
     return(
 
         <div className='App__process'>
-            <h1 style={{marginLeft: 700, fontSize: 40}}>КАК ПРОИСХОДИТ ПРОЦЕСС ВЫКУПА АВТО</h1>
-
-
+            <h1 className="h1__get" style={{marginLeft: 700, fontSize: 40}}>КАК ПРОИСХОДИТ ПРОЦЕСС ВЫКУПА АВТО</h1>
             <div className="form__process" style={{marginTop: 90, position: 'relative', left: 200, top: -50}}>
-                <div className='numbers__logo'>
+                <div className='numberslogo'>
                 <img src={img} style={{position: 'relative', left: -570, top: 160}}/>
                 <img src={number2} style={{position: 'relative', left: -610, top: 250}}/>
                 <img src={number3} style={{position: 'relative', left: -650, top: 340}}/>
                 <img src={number4} style={{position: 'relative', left: -690, top: 430}}/>
                 </div>
+                <div className='gray'>
                 <img src={done} style={{position: 'relative', left: -650, top: 50}} / ><h3>Мы экономим ваше время</h3>
                 <p style={{marginLeft: -550}}>Вся процедура занимает не более 1 часа</p>
                 <h4>Заявка</h4>
@@ -38,6 +37,7 @@ const Get = () => {
                 <p style={{marginLeft: -540}}>Оформляем договор купли-продажи и<br/><span style={{marginLeft: 55}}>подготавливаем все необходимые документы</span></p>
                 <h4 style={{marginLeft: -1160}}>Расчет</h4>
                 <p style={{marginLeft: -460}}>Вы получаете деньги сразу на месте, наличными,<br/><span style={{marginLeft: -262}}>либо на карту</span></p>
+                </div>
             </div>
 
             <div className='pay__info' style={{marginLeft: 600, position: 'relative', top: -50}}>

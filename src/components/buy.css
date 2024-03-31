@@ -34,7 +34,26 @@
 
 
 @media  (max-width: 1200px){
-
+    .App__buy{
+        position: relative;
+        top: 450px
+    }
+    .buyh1{
+        position: relative;
+        margin-left: -1000px;
+    }
+    .textBuy{
+        position: relative;
+        margin-left: -300px;
+    }
+    .border__green{
+        position: relative;
+        margin-left: -600px;
+    }
+    .but__buy{
+        position: relative;
+        margin-right: 950px;
+    }
 }
   
 

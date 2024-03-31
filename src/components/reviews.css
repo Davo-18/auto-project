@@ -32,6 +32,32 @@
 
 @media  (max-width: 1200px){
 
+    .App__reviews{
+        position: relative;
+        left: -220px
+    }
+    h1{
+        position: relative;
+        left: -250px;
+    }
+
+    .header__rev{
+       position: relative;
+        
+       
+    }
+
+    .third_h1{
+        position: relative;
+        left: -850px;
+        top: 140px;
+    }
+    .textThird{
+        position: relative;
+        left: -850px;
+        
+    }
+
     }
       
     

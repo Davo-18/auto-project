@@ -1,7 +1,13 @@
 .App__about{
     width: 1920px;
     min-height: 950px;
+
 }
+
+
+
+
+
 
 
 
@@ -63,13 +69,27 @@ h4{
 
     .plus__company{
         position: relative;
-        left: -200px
+        left: 100px;
+        top: -90px;
     }
     .line__icons{
         position: relative;
-        left: -200px
+        left: 100px;
+        top: -90px
+
     }
     
+    form{
+        position: relative;
+        top: 200px;
+        left: -900px;
+        top: 550px;
+    }
+
+    button{
+        position: relative;
+        left: -10px;
+    }
 }
   
 

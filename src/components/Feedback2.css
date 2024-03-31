@@ -1,4 +1,5 @@
 .App_feedback2{
+    position: fixed;
     width: 1900px;
     height: 581px;
  background: rgb(167,231,244);
@@ -11,10 +12,16 @@
 }
 
 .second_btn{
+   
+    
     
 }
 
 @media  (max-width: 1200px){
+    .App_feedback2{
+        position: relative;
+        left: -780px
+    }
 
 }
   

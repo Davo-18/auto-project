@@ -1,12 +1,18 @@
 .App{
     width: 1920px;
-    max-height: 40px;
+    max-height: 10px;
 }
 
 .contacts {
     margin-left: 1060px;
-    margin-top: -80px;
+    position: relative;
+    top: -15px
     
+}
+
+.main__header{
+    position: relative;
+    top: -20px
 }
 
 
@@ -31,6 +37,16 @@ img:hover{
 
 
 @media  (max-width: 1200px){
+
+    
+    .main__header{
+        position: relative;
+        left: -500px
+    }
+    .contacts{
+        position: relative;
+        left: -900px
+    }
 }
   
 

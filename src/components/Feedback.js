@@ -7,7 +7,7 @@ const Feedback = () => {
 
     return(
         <div className="App_feedback" style={{position: 'relative', left: -20}}>
-            <h1 style={{position: 'relative', left:350  ,fontSize: 40, }}>ПОЧЕМУ СТОИТ ОБРАТИТЬСЯ ИМЕННО К НАМ</h1>
+            <h1 className='feed' style={{position: 'relative', left:350  ,fontSize: 40}}>ПОЧЕМУ СТОИТ ОБРАТИТЬСЯ ИМЕННО К НАМ</h1>
         
             <div className='feedback__mark' style={{backgroundColor: 'white', marginRight: 300, padding: 15, marginTop: 30}}>
             <h4 style={{fontSize: 22, marginLeft: -40}}>Мы</h4>
