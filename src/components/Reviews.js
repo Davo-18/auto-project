@@ -41,7 +41,7 @@ const Reviews = () => {
 районе 20-30 мин‚ оформление
 документов 15-20 мин и все, машина
 продана. Спасибо Вам большое!</p>
-<p className='textThird' style={{fontWeight: 'normal', position: 'relative', left: -120}}>Сергей приехал сам к нам, осмотрел
+<p className='third' style={{fontWeight: 'normal', position: 'relative', left: -120}}>Сергей приехал сам к нам, осмотрел
 машину и сразу предложил цену ту, что
 говорил по телефону. Никакого обмана,
 все честно и быстро. Спасибо за

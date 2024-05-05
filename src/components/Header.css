@@ -37,7 +37,12 @@ img:hover{
 
 
 @media  (max-width: 1200px){
+    .phone{
+        margin-top: 20px;
+        position: relative;
+        left: 70px;
 
+    }
     
     .main__header{
         position: relative;
@@ -45,17 +50,42 @@ img:hover{
     }
     .contacts{
         position: relative;
-        left: -900px
+        left: -950px
+    }
+
+    .logo_head{
+        position: relative;
+        right: 400px;
     }
 }
   
 
 @media  (max-width: 1000px){
-  
+    .phone{
+        margin-top: 20px;
+        position: relative;
+        left: 70px;
+    }
 }
 
 @media  (max-width: 768px){
-  
+    .main__header{
+        font-size: 25px;
+        position: relative;
+        left: -570px;
+    }
+    .contacts{
+        font-size: 15px;
+        position: relative;
+        left: -1150px;
+        top: 5px;
+    }
+    .phone{
+        position: relative;
+        left: 60px;
+        top: 50px;
+    }
+
 }
 
 @media  (max-width: 480px){

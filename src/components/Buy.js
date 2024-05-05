@@ -3,6 +3,8 @@ import buy from './buy.css'
 import photo from "./div.component-image__image.png"
 import iconss from './SVGicon2.png'
 import Modal from './Modal'
+import PhoneInput from 'react-phone-number-input'
+import 'react-phone-number-input/style.css'
 
 
 
@@ -10,6 +12,8 @@ import Modal from './Modal'
 const Buy = () => {
 
     let  [modalactive, setModalActive] = useState(false)
+
+    const [value, setValue] = useState()
     
     const update = (e) => {
         e.preventDefault()
@@ -39,11 +43,12 @@ const Buy = () => {
             <Modal active={modalactive} setActive={setModalActive}  onClick={update}>
                 <div className="form__modal">
                 <h3 style={{fontSize: 30}}>Оформить заявку</h3>
-                <label for="first" style={{marginLeft: -200, position: 'relative', left: -300, fontSize: 25}}>Марка и модель авто*</label>
-                <input style={{position: 'relative', top: 50, left: -555}} type="text" id="first"/>
-                <label for="second" style={{ position: 'relative', left: -498, fontSize: 25, top: 100}}>Ваш номер телефона*</label>
-                <input placeholder='+7' type="number" id="second" style={{position: 'relative', top: 140, left: -750}}/>
-                <button style={{position: 'relative', top: 230, left: 250}}>Отправить</button>
+                <label for="first" style={{marginLeft: -200, position: 'relative', left: 500, fontSize: 25}}>Марка и модель авто*</label>
+                <input style={{position: 'relative', top: 50, left: -80}} type="text" id="first" size="67"  placeholder="M5 F90"/>
+                <label for="second" style={{ position: 'relative', left: -310, fontSize: 25, top: 100}}>Ваш номер телефона*</label>
+                <PhoneInput  placeholder="Введите номер телефона" value={value} onChange={setValue} id="second" style={{position: 'relative', top: 110, left: 0}}/>
+                {/* <input placeholder='+7' type="number" id="second" style={{position: 'relative', top: 140, left: -750}}/> */}
+                <button style={{position: 'relative', top: 150, left: 520}}>Отправить</button>
                 </div>
         </Modal>
 

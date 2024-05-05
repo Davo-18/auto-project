@@ -3,7 +3,11 @@
     height: 289px;
     background-color: #1A646E;
     margin-top: -200px;
+    height: 60vh
+
 }
+
+
 
 
 @media  (max-width: 1200px){

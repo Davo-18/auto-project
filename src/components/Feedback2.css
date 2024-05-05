@@ -18,11 +18,27 @@
 }
 
 @media  (max-width: 1200px){
-    .App_feedback2{
+    .chat{
         position: relative;
-        left: -780px
+        margin-left: 700px;
+        margin-top: 5px;
     }
 
+    .App_feedback2{
+        position: relative;
+        left: -200px;
+        margin-left: -600px;
+    }
+
+    .first_btn{
+        position: relative;
+        margin-left: -450px;
+    }
+
+    .second_btn{
+        position: relative;
+        left: -200px
+    }
 }
   
 

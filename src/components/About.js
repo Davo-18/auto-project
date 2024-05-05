@@ -3,10 +3,12 @@ import Modal from './Modal'
 import line from './icon.png'
 import cars from './iconcars.png'
 import "./about.css"
+import PhoneInput from 'react-phone-number-input'
+import 'react-phone-number-input/style.css'
+import { send } from 'emailjs-com'
 
 
  
-
 
 const About = ({}) => {
 
@@ -15,6 +17,37 @@ const About = ({}) => {
     const update = (e) => {
         e.preventDefault()
     }
+
+    const [value, setValue] = useState()
+    
+    const [toSend, setToSend] = useState({
+        from_name: '',
+        to_name: '',
+        message: '',
+        reply_to: '',
+      });
+    
+      const onSubmit = (e) => {
+        e.preventDefault();
+        send(
+            'SERVICE ID',
+            'TEMPLATE ID',
+            toSend,
+            'User ID'
+          )
+          .then((response) => {
+            console.log('SUCCESS!', response.status, response.text);
+          })
+          .catch((err) => {
+            console.log('FAILED...', err);
+          });
+      };
+    
+      const handleChange = (e) => {
+        setToSend({ ...toSend, [e.target.name]: e.target.value });
+      };
+    
+
     
 
     return(
@@ -22,21 +55,25 @@ const About = ({}) => {
         <div className="App__about" style={{}}>
             <h1 className='about_head'>СЭКОНОМЬТЕ ВРЕМЯ И НЕРВЫ НА ПРОДАЖЕ<br/>
 СВОЕГО АВТОМОБИЛЯ</h1>
-        <form style={{width: 550, height: 580, marginLeft: 1150, marginTop: 70}}>
+        <form style={{width: 550, height: 580, marginLeft: 1150, marginTop: 70}} onSubmit={onSubmit}>
             <img src={cars} style={{position: 'relative', left: -250, top: 50}}/>
             <h4 style={{fontSize: 30, position: 'relative', left: 60, top: -60}}>Выкупим уже сегодня за 1 ЧАС!</h4>
             <p style={{position: 'relative', left: 65, fontSize: 20, width: 500, top: -100, fontWeight: 'normal'}}>Узнайте за сколько мы купим ваш автомобиль</p>
             <div className='inputs__form' style={{position: 'relative', top: -80}}>
-            <label for="mark" style={{marginLeft: -395}}>Марка и модель авто</label>
-            <input onChange={{}}  name="mark" id="mark" type="text" />
+            <label for="mark" style={{marginLeft: -200, position: 'relative', left: -95}}>Марка и модель авто</label>
+            <input name="mark" id="mark" type="text" value={toSend.mark}
+    onChange={handleChange} placeholder="M5 F90"/>
             <label for="mark1" style={{marginLeft: -460}}>Год выпуска</label>
-            <input id="mark1" type="date"/>
+            <input id="mark1" type="date" defaultValue="2024-05-17" value={toSend.mark1}
+    onChange={handleChange}/>
             <label for="mark2" style={{marginLeft: -480}}>Ваше имя</label>
-            <input id="mark2" type="text"/>
+            <input id="mark2" type="text" value={toSend.mark2}
+    onChange={handleChange}/>
             <label for="mark3" style={{marginLeft: -385}}>Ваш номер телефона *</label>
-            <input name="phone" id="mark3" type="number"/>
+            <PhoneInput  placeholder="Введите номер телефона" value={value} onChange={setValue} id="mark3"/>
+           
             </div>
-            <button  onClick={() => setModalActive(true)}  style={{marginLeft: 25, marginTop: -150, width: 520}}>ОСТАВИТЬ ЗАЯВКУ</button>
+            <button  type="submit" onClick={() => setModalActive(true)}  style={{marginLeft: 25, marginTop: -150, width: 520}}>ОСТАВИТЬ ЗАЯВКУ</button>
         </form>
         <div className="plus__company"  style={{marginTop: -610, marginLeft: -1100}}>
         <h4 style={{marginLeft: -30, fontSize: 18}}>Бесплатный выезд</h4>
@@ -64,11 +101,12 @@ const About = ({}) => {
         <Modal active={modalactive} setActive={setModalActive}  onClick={update}>
                 <div className="form__modal">
                 <h3 style={{fontSize: 30}}>Оформить заявку</h3>
-                <label for="first" style={{marginLeft: -200, position: 'relative', left: -300, fontSize: 25}}>Марка и модель авто*</label>
-                <input style={{position: 'relative', top: 50, left: -555}} type="text" id="first"/>
-                <label for="second" style={{ position: 'relative', left: -498, fontSize: 25, top: 100}}>Ваш номер телефона*</label>
-                <input placeholder='+7' type="number" id="second" style={{position: 'relative', top: 140, left: -750}}/>
-                <button style={{position: 'relative', top: 230, left: 250}}>Отправить</button>
+                <label for="first"style={{marginLeft: -200, position: 'relative', left: 500, fontSize: 25}}>Марка и модель авто*</label>
+                <input style={{position: 'relative', top: 50, left: -80}} type="text" id="first"  size="67" placeholder="M5 F90"/>
+                <label for="second" style={{ position: 'relative', left: -310, fontSize: 25, top: 100}}>Ваш номер телефона*</label>
+                <PhoneInput  placeholder="Введите номер телефона" value={value} onChange={setValue} id="second" style={{position: 'relative', top: 110, left: 0}}/>
+                {/* <input placeholder='+7' type="number" id="second" style={{position: 'relative', top: 140, left: -750}}/> */}
+                <button style={{position: 'relative', top: 150, left: 520}}>Отправить</button>
                 </div>
         </Modal>
         </div>
