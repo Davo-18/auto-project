@@ -1,5 +1,5 @@
 .App_feedback{
-    width: 1920px;
+    width: 1940px;
     height: 521px;
     background: rgb(167,231,244);
 
@@ -18,6 +18,9 @@
 }
 
 @media  (max-width: 1200px){
+    .App_feedback{
+        max-width: 1200px;
+    }
     .feed{
         position: relative;
         right: 500px;

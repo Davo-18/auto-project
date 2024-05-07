@@ -1,4 +1,5 @@
 .App__car{
+    width: 1920px;
     background-image: url("div.layer0.png");;
     background-repeat: no-repeat;
     background-size: 1920 845;
@@ -9,7 +10,9 @@
 }
 
 
-
+a{
+    text-decoration: none;
+}
 
 
 p{
@@ -45,7 +48,11 @@ button{
     position: relative;
     left: -200px;
     margin-left: -1650px;
+
     
+}
+button:hover {
+    cursor: pointer;
 }
 
 .white{

@@ -73,7 +73,7 @@ const About = ({}) => {
             <PhoneInput  placeholder="Введите номер телефона" value={value} onChange={setValue} id="mark3"/>
            
             </div>
-            <button  type="submit" onClick={() => setModalActive(true)}  style={{marginLeft: 25, marginTop: -150, width: 520}}>ОСТАВИТЬ ЗАЯВКУ</button>
+            <button  type="submit" onClick={() => setModalActive(true)}  style={{marginLeft: 25, marginTop: -150, width: 520}}><a href="#" style={{color: 'white'}}>ОСТАВИТЬ ЗАЯВКУ</a></button>
         </form>
         <div className="plus__company"  style={{marginTop: -610, marginLeft: -1100}}>
         <h4 style={{marginLeft: -30, fontSize: 18}}>Бесплатный выезд</h4>
@@ -106,7 +106,7 @@ const About = ({}) => {
                 <label for="second" style={{ position: 'relative', left: -310, fontSize: 25, top: 100}}>Ваш номер телефона*</label>
                 <PhoneInput  placeholder="Введите номер телефона" value={value} onChange={setValue} id="second" style={{position: 'relative', top: 110, left: 0}}/>
                 {/* <input placeholder='+7' type="number" id="second" style={{position: 'relative', top: 140, left: -750}}/> */}
-                <button style={{position: 'relative', top: 150, left: 520}}>Отправить</button>
+                <button style={{position: 'relative', top: 150, left: 520}}><a href="#" style={{color: 'white'}}>Отправить</a></button>
                 </div>
         </Modal>
         </div>

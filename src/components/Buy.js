@@ -30,7 +30,7 @@ const Buy = () => {
             <p>После ДТП</p>
             <p>Кредитные, залоговые, с ограничениями или всё вместе.</p>
             </div>
-            <button  onClick={() => setModalActive(true)} className="but__buy" style={{position: 'relative', left: 600, top: 120}}>ПРОДАТЬ АВТО</button>
+            <button  onClick={() => setModalActive(true)} className="but__buy" style={{position: 'relative', left: 600, top: 120}}><a href="#" style={{color: 'white'}}>ПРОДАТЬ АВТО</a></button>
             <div className='border__green'>
             <img src={iconss} style={{position: 'relative', top: -415, left: 60}}/>
             <img src={iconss} style={{position: 'relative', top: -350, left: 20}}/>
@@ -48,7 +48,7 @@ const Buy = () => {
                 <label for="second" style={{ position: 'relative', left: -310, fontSize: 25, top: 100}}>Ваш номер телефона*</label>
                 <PhoneInput  placeholder="Введите номер телефона" value={value} onChange={setValue} id="second" style={{position: 'relative', top: 110, left: 0}}/>
                 {/* <input placeholder='+7' type="number" id="second" style={{position: 'relative', top: 140, left: -750}}/> */}
-                <button style={{position: 'relative', top: 150, left: 520}}>Отправить</button>
+                <button style={{position: 'relative', top: 150, left: 520}}><a href="#" style={{color: 'white'}}>Отправить</a></button>
                 </div>
         </Modal>
 

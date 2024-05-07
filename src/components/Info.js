@@ -28,7 +28,7 @@ const Info = () => {
             <p style={{marginLeft: 60}}>100% безопасность и чистота сделки</p>
             </div>
             </div>
-            <button onClick={() => setModalActive(true)} style={{marginTop: 180}}>ЗАЯВКА НА ВЫКУП</button>
+            <button onClick={() => setModalActive(true)} style={{marginTop: 180}}><a href="#" style={{color: 'white'}}>ЗАЯВКА НА ВЫКУП</a></button>
             <Modal active={modalactive} setActive={setModalActive}  onClick={update}>
                 <div className="form__modal">
                 <h3 style={{fontSize: 30}}>Оформить заявку</h3>
@@ -37,7 +37,7 @@ const Info = () => {
                 <label for="second" style={{ position: 'relative', left: -310, fontSize: 25, top: 100}}>Ваш номер телефона*</label>
                 <PhoneInput  placeholder="Введите номер телефона" value={value} onChange={setValue} id="second" style={{position: 'relative', top: 110, left: 0}}/>
                 {/* <input placeholder='+7' type="number" id="second" style={{position: 'relative', top: 140, left: -750}}/> */}
-                <button style={{position: 'relative', top: 150, left: 520}}>Отправить</button>
+                <button style={{position: 'relative', top: 150, left: 520}}><a href="#" style={{color: 'white'}}>Отправить</a></button>
 
                 </div>
             </Modal>

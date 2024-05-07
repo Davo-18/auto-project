@@ -1,6 +1,6 @@
 .App_feedback2{
     position: fixed;
-    width: 1900px;
+    width: 1920px;
     height: 581px;
  background: rgb(167,231,244);
     background: linear-gradient(90deg, rgb(236, 252, 255) 0%, rgb(216, 231, 255) 100%);;
@@ -28,6 +28,7 @@
         position: relative;
         left: -200px;
         margin-left: -600px;
+        max-width: 1920px;
     }
 
     .first_btn{
