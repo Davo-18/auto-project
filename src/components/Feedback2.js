@@ -16,7 +16,7 @@ const Feedback2 = () => {
 </div>
 <p style={{marginLeft: 1100, textAlign: 'left', position: 'relative', left:210}}>Сообщите марку, модель, год выпуска.
 Прикрепите несколько фотографий и мы озвучим стоимость выкупа вашего автомобиля</p>
-<img className="chat" src={chat} style={{position: 'relative', top: -520, height: 550, left: -300}}/>
+<img className="chat" src={chat} style={{position: 'relative', top: -460, height: 550, left: -300}}/>
 
         </div>
 

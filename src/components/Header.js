@@ -20,7 +20,7 @@ const Header = () => {
             <a href="https://t.me/@ArmDavid777"><img src={mainlogo} style={{position: 'relative', right: 10}}/></a>
             <a href="whatsapp://send?phone=+79015817625"><img src={mainlogo11}/></a>
             </div>
-            <img className="phone" src={mainlogo2} style={{marginLeft: -400, position: 'relative', top: -100}}/>
+            <img className="phone" src={mainlogo2} style={{marginLeft: -150, position: 'relative', top: -95}}/>
             </div>
 
 

@@ -40,7 +40,7 @@
     }
     .buyh1{
         position: relative;
-        margin-left: -1000px;
+        margin-left: -850px;
     }
     .textBuy{
         position: relative;
@@ -52,7 +52,12 @@
     }
     .but__buy{
         position: relative;
-        margin-right: 500px;
+        margin-right: 200px;
+    }
+    .imgcar{
+        position: relative;
+        left: 1000px;
+        margin-right: 1050px;
     }
 }
   

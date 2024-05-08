@@ -39,7 +39,7 @@ const Buy = () => {
             <img src={iconss} style={{position: 'relative', top: -155, left: -100}}/>
             <img src={iconss} style={{position: 'relative', top: -90, left: -140}}/>
             </div>
-            <img src={photo} style={{position: 'relative', left: 500, top: -300}}/>
+            <img src={photo} style={{position: 'relative', left: 500, top: -300}} className='imgcar'/>
             <Modal active={modalactive} setActive={setModalActive}  onClick={update}>
                 <div className="form__modal">
                 <h3 style={{fontSize: 30}}>Оформить заявку</h3>

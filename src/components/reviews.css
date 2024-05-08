@@ -34,7 +34,7 @@
 
     .App__reviews{
         position: relative;
-        left: -220px;
+        left: -120px;
         max-width: 1920px;
     }
     h1{
@@ -55,7 +55,8 @@
     }
     .third{
         position: relative;
-        right: 800px;
+        left: -1200px;
+        
         
     }
 

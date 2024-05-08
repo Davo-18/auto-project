@@ -69,8 +69,8 @@ const About = ({}) => {
             <label for="mark2" style={{marginLeft: -480}}>Ваше имя</label>
             <input id="mark2" type="text" value={toSend.mark2}
     onChange={handleChange}/>
-            <label for="mark3" style={{marginLeft: -385}}>Ваш номер телефона *</label>
-            <PhoneInput  placeholder="Введите номер телефона" value={value} onChange={setValue} id="mark3"/>
+            <label className="mark5"  for="mark3" style={{marginLeft: -385}}>Ваш номер телефона *</label>
+            <PhoneInput className='flags' placeholder="Введите номер телефона" value={value} onChange={setValue} id="mark3"/>
            
             </div>
             <button  type="submit" onClick={() => setModalActive(true)}  style={{marginLeft: 25, marginTop: -150, width: 520}}><a href="#" style={{color: 'white'}}>ОСТАВИТЬ ЗАЯВКУ</a></button>

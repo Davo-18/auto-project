@@ -24,8 +24,8 @@ const Info = () => {
             <p style={{color: 'green', marginLeft: -240, fontSize: 26, marginTop: -60}}>В среднем на 50 000 ₽ дороже любого предложения</p>
             <div className='white' style={{marginLeft: -500}}>
             <p>До 99% от рыночной стоимости</p>
-            <p style={{marginLeft: 120}}>Расчёт на месте наличными или на карту</p>
-            <p style={{marginLeft: 60}}>100% безопасность и чистота сделки</p>
+            <p style={{marginLeft: 120}} className='second_p'>Расчёт на месте наличными или на карту</p>
+            <p style={{marginLeft: 60}} className='third_p'>100% безопасность и чистота сделки</p>
             </div>
             </div>
             <button onClick={() => setModalActive(true)} style={{marginTop: 180}}><a href="#" style={{color: 'white'}}>ЗАЯВКА НА ВЫКУП</a></button>

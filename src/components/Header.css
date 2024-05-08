@@ -37,25 +37,28 @@ img:hover{
 
 
 @media  (max-width: 1200px){
+
+    
+
     .phone{
         margin-top: 20px;
         position: relative;
-        left: 70px;
+        left: 10px;
 
     }
     
     .main__header{
         position: relative;
-        left: -500px
+        left: -300px
     }
     .contacts{
         position: relative;
-        left: -950px
+        left: -800px
     }
 
     .logo_head{
         position: relative;
-        right: 400px;
+        right: 300px;
     }
 }
   

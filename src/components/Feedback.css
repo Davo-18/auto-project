@@ -18,23 +18,22 @@
 }
 
 @media  (max-width: 1200px){
-    .App_feedback{
-        max-width: 1200px;
-    }
+    
     .feed{
         position: relative;
         right: 500px;
-        margin-left: -980px;
+        margin-left: -780px;
     }
     .feedback__mark{
         position: relative;
-        left: -400px;
+        left: -300px;
+        top: -30px;
         width: 90vh
     }
 
     img{
         position: relative;
-        left: 400px
+        left: 300px
     }
 }
   

@@ -43,17 +43,17 @@ font-weight: normal;
   .h1__get{
     position: relative;
     margin-top: 450px;
-    left: -450px;
+    left: -350px;
   }
 
   .form__process{
     position: relative;
-    margin-left: -980px;
+    margin-left: -780px;
   }
   
   .pay__info{
     position: relative;
-    left: -600px;
+    left: -400px;
     margin-top: -330px;
     
   }
