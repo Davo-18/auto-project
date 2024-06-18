@@ -21,20 +21,45 @@
     
     .feed{
         position: relative;
-        right: 500px;
-        margin-left: -780px;
+        right: 600px;
+        margin-left: -950px;
+        
     }
     .feedback__mark{
         position: relative;
-        left: -300px;
-        top: -30px;
-        width: 90vh
+        left: -350px;
+        top: 20px;
+        width: 110vh;
+        height: 200px;
     }
 
     img{
         position: relative;
-        left: 300px
+       
     }
+
+     .img_nike{
+       position: relative;
+       top: 10px;
+       width: 50px;
+        transform: translateX(180px);
+    } 
+    
+    .firsts{
+        position: relative;
+        margin-top: 50px;
+        top: 20px;
+    }
+
+    .text__our{
+        width: 1500px;
+    } 
+
+     .img_nike{
+       position: relative;
+       top: 10px;
+        transform: translateX(180px);
+    } 
 }
   
 

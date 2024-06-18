@@ -3,7 +3,8 @@
     width: 1920px; 
     height: 748px;
     background: rgb(167,231,244);
-    background: linear-gradient(90deg, rgb(236, 252, 255) 0%, rgb(216, 231, 255) 100%);;
+    background: linear-gradient(90deg, rgb(236, 252, 255) 0%, rgb(216, 231, 255) 100%);
+    margin-top: -1200px;
 
 }
 
@@ -36,11 +37,11 @@
 @media  (max-width: 1200px){
     .App__buy{
         position: relative;
-        top: 450px
+        top: 50px
     }
     .buyh1{
         position: relative;
-        margin-left: -850px;
+        margin-left: -1050px;
     }
     .textBuy{
         position: relative;
@@ -52,12 +53,14 @@
     }
     .but__buy{
         position: relative;
-        margin-right: 200px;
+        margin-right: 400px;
     }
     .imgcar{
         position: relative;
-        left: 1000px;
-        margin-right: 1050px;
+        left: 900px;
+        margin-right: 1250px;
+        width: 300px;
+        margin-top: 10px;
     }
 }
   

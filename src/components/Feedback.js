@@ -4,7 +4,7 @@ import done from './icondone.png'
 
 const Feedback = () => {
 
-
+ 
     return(
         <div className="App_feedback" style={{position: 'relative', left: -20}}>
             <h1 className='feed' style={{position: 'relative', left:350  ,fontSize: 40}}>ПОЧЕМУ СТОИТ ОБРАТИТЬСЯ ИМЕННО К НАМ</h1>
@@ -16,9 +16,11 @@ const Feedback = () => {
             <p>Грамотно оформляем все документы, фиксируем дату продажи в договоре, вам не придут штрафы и налоги</p>
             <p>Выплачиваем деньги сразу после озвучивания цены, находясь у вашего авто</p>
             </div>
-            <img src={done} style={{position: 'relative', left: -510, top: -140}}/>
-            <img src={done} style={{position: 'relative', left: -550, top: -100}}/>
+            <div className="img_nike">
+            <img className="firsts" src={done} style={{position: 'relative', left: -510, top: -140}}/>
+            <img className="firsts2" src={done} style={{position: 'relative', left: -550, top: -100}}/>
             <img src={done} style={{position: 'relative', left: -590, top: -50}}/>
+            </div>
             </div>
 
 

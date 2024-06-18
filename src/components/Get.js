@@ -26,8 +26,8 @@ const Get = () => {
                 <img src={number4} style={{position: 'relative', left: -690, top: 430}}/>
                 </div>
                 <div className='gray'>
-                <img src={done} style={{position: 'relative', left: -650, top: 50}} / ><h3>Мы экономим ваше время</h3>
-                <p style={{marginLeft: -550}}>Вся процедура занимает не более 1 часа</p>
+                <img  src={done} style={{position: 'relative', left: -650, top: 50}} / ><h3>Мы экономим ваше время</h3>
+                <p className='nike__logo' style={{marginLeft: -550}}>Вся процедура занимает не более 1 часа</p>
                 <h4>Заявка</h4>
                 <p style={{marginLeft: -555}}>Оформляете заявку на нашем сайте<br/>
 <span style={{marginLeft: -80}}>или звоните по телефону</span></p>

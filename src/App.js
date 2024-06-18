@@ -1,6 +1,8 @@
 import Header from './components/Header';
+import Navigation from './components/Navigation';
 import Info from './components/Info';
 import About from './components/About';
+import Cars from './components/Cars';
 import Buy from './components/Buy';
 import Get from './components/Get';
 import Reviews from './components/Reviews';
@@ -15,8 +17,10 @@ function App() {
   return (
     <div className="App">
       <Header/>
+      {/* <Navigation/> */}
       <Info/>
       <About/>
+      <Cars/>
       <Buy/>
       <Get/>
       <Reviews/>

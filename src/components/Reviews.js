@@ -25,6 +25,7 @@ const Reviews = () => {
 <h4 className='third_h1'>
 Илья, Mazda 6</h4>
 
+
 </div>
 
 <div className='text__rev' style={{fontWeight: 'normal', textAlign: 'left', marginTop: -35}}>
@@ -36,20 +37,22 @@ const Reviews = () => {
 Все понравилось, буду рекомендовать
 знакомым, спасибо за качественный
 сервис!</p>
-<p style={{fontWeight: 'normal', position: 'relative', left: -85}}>Отличный сервис, осмотр машины
+<p style={{fontWeight: 'normal', position: 'relative', left: -110}}>Отличный сервис, осмотр машины
 занял 30 мин, торги прошли тоже в
 районе 20-30 мин‚ оформление
 документов 15-20 мин и все, машина
 продана. Спасибо Вам большое!</p>
-<p className='third' style={{fontWeight: 'normal', position: 'relative', left: -120}}>Сергей приехал сам к нам, осмотрел
+
+<p className='third' style={{fontWeight: 'normal', position: 'relative', left: -170}}>Сергей приехал сам к нам, осмотрел
 машину и сразу предложил цену ту, что
 говорил по телефону. Никакого обмана,
-все честно и быстро. Спасибо за
-качественный сервис!</p>
+все честно</p>
+
+
 </div>
-<img src={men} style={{position: 'relative', top: -170, left: 100}}/>
-<img src={men2} style={{position: 'relative', top: -170, left: 630}}/>
-<img src={girl} style={{position: 'relative', top: -170, left: -680}}/>
+<img  className="img_main1" src={men} style={{position: 'relative', top: -170, left: 100}}/>
+<img className="img_main" src={men2} style={{position: 'relative', top: -170, left: 630}}/>
+<img className="img_main1" src={girl} style={{position: 'relative', top: -170, left: -680}}/>
     </div>
 
 

@@ -1,0 +1,116 @@
+.second_btn2{
+    position: relative;
+    left: 500px
+}
+
+.cars_p{
+    margin-left: 1050px;
+    text-align: left;
+    font-size: 20px;
+}
+
+.cars_p2{
+    position: relative;
+    left: 1400px;
+    top: -95px;
+    text-align: left;
+}
+
+.cars_btn{
+    position: relative;
+    top: -80px;
+    left: 600px;
+}
+
+.Haval{
+    font-weight: 10px;
+}
+
+.cars__haval7{
+    position: relative;
+    top: -320px;
+}
+
+
+.main__car7{
+    position: relative;
+    top: -200px;
+}
+
+.Cars_price{
+    max-width: 
+}
+
+
+
+
+@media  (max-width: 1200px){
+    .Cars_price{
+        margin-top: 600px;
+    }
+
+    h1{
+        margin-left: -900px;
+    }
+
+    .cars_h4{
+        position: relative;
+        left: -400px;
+    }
+
+    .Haval{
+        margin-left: -380px;
+    }
+
+    .cars_p{
+        position: relative;
+        left: -400px;
+    }
+    .cars_p2{
+        font-size: 30px;
+        position: relative;
+        margin-left: -630px;
+        top: -75px;
+    }
+
+    .cars_btn{
+        position: relative;
+        font-size: 10px;
+        width: 50px;
+        margin-left: 600px;
+
+    }
+
+    .cars_btn1{
+        font-size: 10px;
+        width: 50px;
+        position: relative;
+        top: -80px;
+        margin-left: 1215px;
+    }
+
+    .second_btn2{
+        font-size: 10px;
+    }
+
+    .second_btn22{
+        position: absolute;
+        left:400px;
+        font-size: 10px;
+        transform: translateX(155px);
+    }
+
+}
+  
+
+@media  (max-width: 1000px){
+  
+}
+
+@media  (max-width: 768px){
+  
+}
+
+@media  (max-width: 480px){
+  
+}

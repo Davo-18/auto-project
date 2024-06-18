@@ -1,0 +1,7 @@
+.navi{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    position: relative;
+    top: 50px;
+}

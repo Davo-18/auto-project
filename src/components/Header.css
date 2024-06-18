@@ -49,16 +49,17 @@ img:hover{
     
     .main__header{
         position: relative;
-        left: -300px
+        left: -00px;
     }
     .contacts{
         position: relative;
-        left: -800px
+        left: -700px
     }
 
     .logo_head{
         position: relative;
-        right: 300px;
+        right: 00px;
+        top: 10px;
     }
 }
   

@@ -43,7 +43,7 @@ font-weight: normal;
   .h1__get{
     position: relative;
     margin-top: 450px;
-    left: -350px;
+    left: -430px;
   }
 
   .form__process{
@@ -53,14 +53,23 @@ font-weight: normal;
   
   .pay__info{
     position: relative;
-    left: -400px;
+    left: -580px;
     margin-top: -330px;
     
   }
   p{
     font-size: small
   }
-    
+
+  .App__process{
+    position: relative;
+    top: -400px;
+  }
+    .nike__logo{
+      position: relative;
+      top: -15px;
+      
+    }
 }
   
 

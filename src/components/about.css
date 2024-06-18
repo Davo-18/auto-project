@@ -64,17 +64,17 @@ h4{
 @media  (max-width: 1200px){
     .about_head{
         position: relative;
-        left: -330px
+        left: -430px
     }
 
     .plus__company{
         position: relative;
-        left: 230px;
+        left: 140px;
         top: -90px;
     }
     .line__icons{
         position: relative;
-        left: 230px;
+        left: 150px;
         top: -90px
 
     }
@@ -82,7 +82,7 @@ h4{
     form{
         position: relative;
         top: 200px;
-        left: -800px;
+        left: -900px;
         top: 550px;
     }
 

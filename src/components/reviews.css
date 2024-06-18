@@ -31,15 +31,18 @@
 
 
 @media  (max-width: 1200px){
-
+    
     .App__reviews{
         position: relative;
-        left: -120px;
+        margin-top: -500px;
+        top: -500px;
+        left: -240px;
         max-width: 1920px;
+        
     }
     h1{
         position: relative;
-        left: -250px;
+        left: -240px;
     }
 
     .header__rev{
@@ -55,11 +58,25 @@
     }
     .third{
         position: relative;
-        left: -1200px;
-        
+        top: 140px;
+        transform: translateX(-850px);
+    }
+
+    .img_main{
+        position: relative;
+        margin-top: 180px;
+        transform: translateX(-850px);
         
     }
 
+    .img_main1{
+        position: relative;
+        transform: translateY(-150px);
+}
+
+    
+
+    
     }
       
     

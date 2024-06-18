@@ -20,24 +20,34 @@
 @media  (max-width: 1200px){
     .chat{
         position: relative;
-        margin-left: 700px;
+        margin-left: 800px;
         margin-top: 5px;
+    }
+
+    .h1__first{
+        position: relative;
+        left: -300px;
     }
 
     .App_feedback2{
         position: relative;
         left: -100px;
-        margin-left: -500px;
+        margin-left: -700px;
+        background: rgb(167, 210, 230);
+
+        background: linear-gradient(90deg, rgb(236, 252, 255) 0%, rgb(216, 231, 255) 100%);;
     }
 
     .first_btn{
         position: relative;
         margin-left: -450px;
+        left: -600px;
+        transform: translateX(-600px);
     }
 
     .second_btn{
         position: relative;
-        left: -500px;
+        left: -800px;
     }
 }
   
